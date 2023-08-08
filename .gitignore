@@ -1,0 +1,46 @@
+# Логи
+logs
+*.log
+npm-debug.log*
+
+# Директория Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Каталоги зависимостей
+node_modules/
+jspm_packages/
+
+# Идеально для macOS
+.DS_Store
+
+# Идеально для Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Идеально для VS Code
+.vscode/
+
+# Конфигурации IDE
+.idea/
+
+# Резервные файлы, временные файлы и дампы
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Настройки окружения
+.env
+
+# Дистрибутивы
+/dist
+
+# Остальные файлы или каталоги, которые могут быть добавлены в проект, но не следует отслеживать в Git
+# например, локальные настройки или временные файлы разработки
+# .config/
+# /temp-scripts
