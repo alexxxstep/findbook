@@ -17,7 +17,6 @@ class App {
   }
 
   route() {
-    console.log(this);
     if (this.currentView) {
       this.currentView.destroy();
     }
