@@ -1,3 +1,10 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
 .card_list-loader {
   display: flex;
   align-items: center;
